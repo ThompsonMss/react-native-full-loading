@@ -1,5 +1,13 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version: 0.0.3](https://img.shields.io/badge/version-0.0.3-brightgreen)](https://img.shields.io/badge/version-0.0.3-brightgreen)
+[![Platform: IOS and Android](https://img.shields.io/badge/platform-ios%2Fandroid-lightgrey)](https://img.shields.io/badge/platform-ios%2Fandroid-lightgrey)
+
 # react-native-full-loading
 A simple React component that works for loading.
+
+### Demo
+
+[![Demo](https://github.com/ThompsonMss/react-native-full-loading/blob/master/demo.gif)](https://github.com/ThompsonMss/react-native-full-loading/blob/master/demo.gif)
 
 ---------
 

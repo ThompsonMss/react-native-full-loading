@@ -34,6 +34,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         top: -60,
+        position: 'absolute',
+        zIndex: 2,
+        width: '100%'
     },
     activityIndicator: {
         marginTop: 60
