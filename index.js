@@ -12,14 +12,19 @@ const FullLoading = (props) => {
         colorIndicator,
         sizeIndicator,
         colorText,
-        text
+        text,
+        visible
     } = props;
 
     return (
-        <View style={[styles.container, { backgroundColor: backgroundColor }]}>
-            <ActivityIndicator style={styles.activityIndicator} color={colorIndicator} size={sizeIndicator} />
-            <Text style={[styles.text, { color: colorText }]}>{text}</Text>
-        </View>
+        <>
+            {visible && (
+                <View style={[styles.container, { backgroundColor: backgroundColor }]}>
+                    <ActivityIndicator style={styles.activityIndicator} color={colorIndicator} size={sizeIndicator} />
+                    <Text style={[styles.text, { color: colorText }]}>{text}</Text>
+                </View>
+            )}
+        </>
     );
 }
 
@@ -44,7 +49,8 @@ FullLoading.prototype = {
     colorIndicator: PropTypes.string,
     sizeIndicator: PropTypes.string,
     colorText: PropTypes.string,
-    text: PropTypes.string
+    text: PropTypes.string,
+    visible: PropTypes.bool.isRequired
 };
 
 FullLoading.defaultProps = {
