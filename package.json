@@ -1,0 +1,26 @@
+{
+  "name": "react-native-full-loading",
+  "version": "0.0.1",
+  "description": "React native loading component",
+  "tags": [
+    "react-native",
+    "load",
+    "loading",
+    "full-loading",
+    "carregamento"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThompsonMss/react-native-full-loading.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThompsonMss/react-native-full-loading/issues"
+  },
+  "main": "index.js",
+  "author": "Thompson Silva <https://github.com/ThompsonMss> (https://github.com/ThompsonMss)",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {}
+}
