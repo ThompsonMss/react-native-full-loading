@@ -20,7 +20,7 @@ npm i react-native-full-loading
 2.Then, You need to import the library component within your own component
 ``` javascript
 import React from 'react'
-import FullLoading from 'react-floating-action-button'
+import FullLoading from 'react-native-full-loading'
 ````
 
 3.You can now start using the full-loading components!
